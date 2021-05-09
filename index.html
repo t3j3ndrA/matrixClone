@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matrix.org</title>
+
+    <link rel="stylesheet" href="./matrix-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+
+    
+        <div class="nav">
+         
+            <a href="#" class="nav-links">Discover</a>
+            <a href="#" class="nav-links">Develop</a>
+            <a href="#" class="nav-links">Foundation</a>
+            <a href="#" class="nav-links">Blog</a>
+            <a href="#" class="nav-links">FAQs</a>
+            <a href="#" class="nav-links">Matrix Live</a>
+            <a href="#" class="nav-links">Shop</a>
+            <a href="#" class="dark-btn btn trynow-btn">Try Now</a>
+        </div>
+
+        <div class="heading">
+
+            <div class="logo">
+                <img src="./matrix-logo-white.svg" alt="">
+            </div>
+
+            <p>
+                An open network for secure, decentralized communication
+            </p>
+
+
+            <a href="#" class="light-btn btn">
+                Learn More
+            </a>
+        </div>
+
+
+    </header>
+
+
+    <div class="main1">
+        <div class="left1">
+
+            <h3>Imagine a world...</h3>
+
+            <i>
+
+                <p>...where it is as simple to message or call anyone as it is to send them an email.
+                </p>
+                <p>...where you can communicate without being forced to install the same app.
+                </p>
+                <p>...where you can choose who hosts your communication.
+                </p>
+                <p>...where your conversations are secured by E2E encryption.</p>
+                <p>...where there’s a simple standard HTTP API for sharing real-time data on the web.</p>
+
+            </i>
+        </div>
+
+        <div class="right1">
+            <h1>This is Matrix.</h1>
+
+            <p>
+                Matrix is an open source project that publishes the
+                Matrix open standard for secure, decentralised, real-time communication, and its Apache licensed
+                reference implementations.
+
+                Maintained by the non-profit Matrix.org Foundation, we aim
+                to create an open platform which is as independent, vibrant and evolving as the Web itself... but for
+                communication.
+
+                As of June 2019, Matrix is out of beta, and the protocol is fully suitable for production usage.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="main2">
+        <!-- messanging goes here -->
+        <div class="messaging">
+
+            <div class="messaging-logo">
+                <img src="./messaging.svg" alt="">
+            </div>
+            <h2>Messaging</h2>
+            <p>
+                Matrix gives you simple HTTP APIs and SDKs (iOS, Android, Web) to create chatrooms, direct chats and
+                chat bots, complete with end-to-end encryption, file transfer, synchronised conversation history,
+                formatted messages, read receipts and more.
+            </p>
+
+            <p>
+                Conversations are replicated over all the servers participating in them, meaning there are no single
+                point of control or failure. You can reach any other user in the global Matrix ecosystem of over 25M
+                users, even including those on other networks via bridges.
+
+            </p>
+            <a href="#" class="dark-btn btn">Learn More</a>
+        </div>
+        <!-- encryption goes here -->
+        <div class="end-to-end-encryption">
+
+            <div class="end-to-end-encryption-logo">
+                <img src="./encryption.svg" alt="">
+            </div>
+            <h2>End-to-end-encryption</h2>
+
+            <p>
+                Matrix provides state-of-the-art end-to-end-encryption via the Olm and Megolm cryptographic ratchets.
+                This ensures that only the intended recipients can ever decrypt your messages, while warning if any
+                unexpected devices are added to the conversation.
+            </p>
+
+            <p>
+                Matrix’s encryption is based on the Double Ratchet Algorithm popularised by Signal, but extended to
+                support encryption to rooms containing thousands of devices. Olm and Megolm are specified as an open
+                standard and implementations are released under the Apache license, independently audited by NCC Group.
+
+                Learn more
+
+            </p>
+
+            <a href="#" class="dark-btn btn">Learn more</a>
+        </div>
+        <!-- voip goes here -->
+        <div class="voip">
+
+            <div class="voip-logo">
+                <img src="./voip.svg" alt="">
+            </div>
+            <h2>VoiP</h2>
+            <p>
+                With the advent of WebRTC, developers gained the ability to exchange high quality voice and video calls
+                – but no standard way to actually route the calls.
+            </p>
+            Matrix is the missing signalling layer for WebRTC. If you are building VoIP into your app, or want to expose
+            your existing VoIP app to a wider audience, building on Matrix’s SDKs and bridges should be a no-brainer.
+            <p>
+
+                <a href="#" class="dark-btn btn">Learn more</a>
+
+            </p>
+        </div>
+        <!-- brigding goes here -->
+        <div class="bridging">
+            <div class="bridging-logo">
+                <img src="./bridging.svg" alt="">
+            </div>
+            <h2>Bridging</h2>
+
+            <p>Matrix owes its name to its ability to bridge existing platforms into a global open matrix of
+                communication. Bridges are core to Matrix and designed to be as easy to write as possible, with Matrix
+                providing the highest common denominator language to link the networks together.</p>
+            <p>
+                The core Matrix team maintains bridges to Slack, IRC, XMPP and Gitter, and meanwhile the wider Matrix
+                community provides bridges for Telegram, Discord, WhatsApp, Facebook, Hangouts, Signal and many more.
+            </p>
+            <a href="#" class="dark-btn btn">Learn more</a>
+        </div>
+
+        <div class="iot">
+            <h2>IOT, VR and more...</h2>
+            <p>
+                Matrix can handle any type of real-time data, not only messaging and VoIP.
+            </p>
+            <p>
+                By building bridges to as many IoT silos as possible, data can be securely published on the Matrix
+                network. IoT solutions built on Matrix are unified, rather than locked to specific vendors, and can even
+                publish or consume Matrix data directly from devices via ultra-low bandwidth transports (100bps or less)
+            </p>
+
+            <p>
+                Meanwhile AR and VR vendors are recreating the silos we’ve seen in instant messaging rather than working
+                together towards an open ecosystem. Matrix can be the unifying layer for both communication and world
+                data in AR and VR.
+            </p>
+        </div>
+    </div>
+
+    <div class="openstd">
+        <h2>An Open standard</h2>
+
+        <div>
+            <div class="std-img">
+                <img src="./basic_signs.svg" alt="">
+            </div>
+            <p>
+                Simple pragmatic RESTful HTTP/JSON APIs by default
+            </p>
+        </div>
+
+
+        <div>
+            <div class="std-img">
+                <img src="./basic_spread_text.svg" alt="">
+            </div>
+            <p>
+                Open specification of the Matrix standard
+            </p>
+        </div>
+
+
+
+
+        <div>
+            <div class="std-img">
+                <img src="./basic_share.svg" alt="">
+            </div>
+            <p>
+                Fully decentralised conversations with no single points of control or failure
+            </p>
+        </div>
+
+
+
+
+        <div>
+            <div class="std-img">
+                <img src="./encryption.svg" alt="">
+            </div>
+            <p>
+                End-to-end encryption via Olm and Megolm
+            </p>
+        </div>
+
+
+
+
+        <div>
+            <div class="std-img">
+                <img src="./voip.svg" alt="">
+            </div>
+            <p>
+                WebRTC VoIP/Video calling using Matrix signalling
+            </p>
+        </div>
+        <div>
+            <div class="std-img">
+                <img src="./arrows_rotate.svg" alt="">
+            </div>
+            <p>
+                Real-time synchronised history and state across all clients
+            </p>
+        </div>
+
+        <div>
+            <div class="std-img">
+                <img src="./basic_mail_open_text.svg" alt="">
+            </div>
+            <p>
+                Integrates with existing 3rd party IDs to authenticate and discover users
+            </p>
+        </div>
+
+        <div>
+            <div class="std-img">
+                <img src="./basic_heart.svg" alt="">
+            </div>
+            <p>
+                Maintained by the non-profit Matrix.org Foundation
+            </p>
+        </div>
+
+        <div>
+            <div class="std-img">
+                <img src="./messaging.svg" alt="">
+            </div>
+            <p>
+                Group conversations, read receipts, typing notifications, presence...
+            </p>
+        </div>
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="list1">
+            <h3>Discover</h3>
+            <ul>
+                <li><a href="#">Try Matrix</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Bots</a></li>
+                <li><a href="#">SDKs</a></li>
+                <li><a href="#">Hosting</a></li>
+
+            </ul>
+        </div>
+
+        <div class="list2">
+            <h3>Guides</h3>
+            <ul>
+                <li><a href="#">Getting Started</a></li>
+                <li><a href="#">Client-server API</a></li>
+                <li><a href="#">Install Synapse</a></li>
+                <li><a href="#">Bridges</a></li>
+                <li><a href="#">All guides</a></li>
+            </ul>
+        </div>
+
+        <div class="list3">
+            <h3>Develop Docs</h3>
+            <ul>
+                <li><a href="#">Spec</a></li>
+                <li><a href="#">API Playground</a></li>
+                <li><a href="#">Code</a></li>
+
+            </ul>
+        </div>
+
+        <div class="list3">
+            <h3>Blog</h3>
+            <ul>
+                <li><a href="#">All Posts</a></li>
+                <li><a href="#">This Week in Matrix</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">RPS</a></li>
+            </ul>
+        </div>
+
+
+
+        <div class="list4">
+            <h3>More</h3>
+            <ul>
+                <li><a href="#">FAQx</a></li>
+                <li><a href="#">Matrix Live</a></li>
+                <li><a href="#">Security Desclosure</a></li>
+                <li><a href="#">Code of conductor for Matrix.org</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Contace</a></li>
+                <li><a href="#">Site Source</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
